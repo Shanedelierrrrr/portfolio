@@ -1,0 +1,103 @@
+/* 
+COLOR PALETTE
+https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4
+#22223B - dark violet
+#4A4E69 - violet
+#9A8C98 - muted pink
+#C9ADA7 - flesh brown
+#F2E9E4 - dirty white
+*/
+
+/* Global styles
+------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    color: #22223B;
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #9A8C98;
+}
+a:hover {
+    text-decoration: none; 
+}
+h1 {
+    font-size: 80px;
+    line-height: 1;
+}
+h2 {
+    font-size: 40px;
+}
+h1, h2 {
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+p {
+    line-height: 1.5;
+}
+/* Profile
+------------------------------*/
+header {
+    background-color: #9A8C98;
+    color: #F2E9E4;
+}
+/* Projects
+------------------------------*/
+.projects {
+    background-color: #F2E9E4;
+}
+.projects .btn {
+    color: #F2E9E4;
+    background-color: #4A4E69;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgb(74, 78, 105, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px solid #22223B;
+    padding: 40px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 30px;
+}
+.project-item h3 {
+    margin: 0;
+}
+/* Work Experience
+------------------------------*/
+.work-experience{
+    background-color: #C9ADA7;
+}
+/* Education
+------------------------------*/
+
+/* Contact Info
+------------------------------*/
+footer{
+    background-color: #22223B;
+    color: #F2E9E4;
+}
